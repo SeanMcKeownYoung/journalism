@@ -14,7 +14,7 @@
     
     </xml><![endif]-->
     <meta charset="utf-8" />
-    <title>Receive your Spring Spruce Up, April&#8203;&nbsp;&#8203;27 in SITENAME<!--Z-->!</title>
+    <title>Without you, the story ends. Support SITENAME<!--Z-->!</title>
     <!-- add icon link -->
     <link rel="icon" href="REPLACEfavicon"type="image/x-icon" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -36,7 +36,8 @@
 				April&#8203;&nbsp;&#8203;27   
 
 			TITLE OF SPECIAL SECTION:  Notes: Don't put a comma next to it, it will load automatically.
-				Receive your Spring Spruce Up    
+				Without you, the story ends. 
+                   
 			
 			PREHEADER TEXT INTRO:  Notes: The preheader is the short description that shows up in the email preview. Ours will include the date and section title, but that has already been updated above.
 				Spring is in the air!  
@@ -60,13 +61,13 @@ Spring Spruce Up special section.
 			
 				STEP 1: Replacing the img drop shadow. Just like above, select the text below (that starts with <img and ends with "/>
 				go to 'Edit' then 'Select in Files' to select those lines throughout the email template set. Proceed.
-					<img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/bb7/py8/jf3/SPRING_PROMO.jpg" height="600px" width="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
+					<img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/wza/6an/0ym/JournalismIllo.gif" height="600px" width="auto" style="margin:0; padding:0; border:none; filter: drop-shadow(-3px 3px 10px rgba(0, 0, 0, 0.35));" border="0" alt="cover"/>
 				Select the text below and paste in the field using 'Replace in Text'.
-					<img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/bb7/py8/jf3/SPRING_PROMO.jpg" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
+					<img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/wza/6an/0ym/JournalismIllo.gif" height="600px" width="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/> -->
 
 				STEP 2: Replacing the image with the new campaign image. 
 				Use the instuctions above, to 'Find in Files' and 'Replace in Files'. Use this the line below to 'Find in Files'. Replace it with the url of your new art (that you've loaded into SailThru) by using 'Replace in Files'. (*be sure that your url is correct, leaving off an h at the beginning or an f at the end means it won't load.)
-				https://media.sailthru.com/composer/images/bazh/wxt6ga5j/bb7/py8/jf3/SPRING_PROMO.jpg
+				https://media.sailthru.com/composer/images/bazh/wxt6ga5j/wza/6an/0ym/JournalismIllo.gif
 
 /* TEMPLATE LOCALIZATION - ONLY USE THIS TO UPDATE TEMPLATE LOCALIZATIONS - CQ WITH SEAN  *
 
@@ -131,6 +132,10 @@ Spring Spruce Up special section.
 			
 
 		/* CLIENT-SPECIFIC STYLES */
+        .disappear {animation: disappearing 15s ease-in-out 1s infinite normal none;}
+        @keyframes disappearing {0% {opacity: 1;} 50% {opacity: 0.1;}  80% {opacity: 0.1;}  100% {opacity: 1;} }
+        .disappear2 {animation: disappearing2 15s ease-in-out 1s infinite normal none;}
+        @keyframes disappearing2 {10% {opacity: 1;} 50% {opacity: 0.1;} 80% {opacity: 0.1;}  100% {opacity: 1;} }
 		body, table, td, a, p { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 		table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
 		img { -ms-interpolation-mode: bicubic; }
@@ -145,6 +150,7 @@ Spring Spruce Up special section.
         .liststack { width:140px!important; display:block!important; padding: 0 !important; margin-left: 0px !important;}
         highlight { text-align: center !important; display: inline !important; cursor: default !important;}
         highlight:hover {color: #000 !important; -webkit-text-stroke: 0.75px #000; text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;}
+        highlightIntro { text-align: center !important; font-weight: 600 !important;   display: inline !important; cursor: default !important;}
         bullet { display: inline !important; max-height:none !important;  }
         bulletHide { width: 0px !important; display: none !important; }
         .hoverFooterBttn:hover {-webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.20), 0px 0px 10px 16px rgba(0,0,0,0.10); box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.20), 0px 0px 10px 16px rgba(0,0,0,0.10); transition: box-shadow 0.3s ease-in-out; }
@@ -256,7 +262,8 @@ Spring Spruce Up special section.
 			/*MOBILE RESET STYLES*/
 			bullet { padding-right: 2px !important;}
             bulletHide { display: inline !important; max-height:none !important; padding-right: 2px;}
-			highlight { text-align: center !important; display: block !important; font-size: 14px !important; line-height: 20px !important; padding: 2px 50px 4px 50px !important;}
+			highlight { text-align: left !important; display: block !important; font-size: 14px !important; line-height: 20px !important; padding: 2px 50px 4px 50px !important;}
+            highlightIntro { text-align: left !important; display: block !important; font-size: 14px !important; line-height: 20px !important; padding: 2px 50px 4px 50px !important;}
             .hoverClicks {background-color: transparent !important; margin: -1.1em -0.4em !important; padding: 1.5em 1.0em !important; transition: all 0.2s ease-out;}
             :hover.hoverClicks {background-color: #277077 !important; margin: -1.1em -0.4em !important; padding: 1.5em 1.0em !important; color: #e7e7e7 !important; transition: all 0.2s ease-out;}
 			.mobile-320 { width:320px!important; padding: 0 !important; }
@@ -281,10 +288,10 @@ Spring Spruce Up special section.
 			.right-align { text-align: right !important; }
             .spacer {margin-bottom: 20px !important;}
 			/*TEXT RESIZERS*/
-			.h1-text-resize { font-size:4em !important; line-height:1 !important;}
+			.h1-text-resize { font-size:2.5em !important; line-height:1 !important;}
 			.h2-text-resize { font-size:20px !important; line-height:30px !important; margin: 10px !important;}
 			.h3-text-resize { font-size:20px !important; line-height:30px !important; }
-			.intro-text-resize { font-size:15.5px !important; line-height:28px !important; margin-left: 0px !important; margin-right: 0px !important; width: 260px !important; }
+			.intro-text-resize { font-size:14.25px !important; line-height:28px !important; margin-left: 0px !important; margin-right: 0px !important; width: 260px !important; }
             .footer-text-resize { font-size:12.5px !important; line-height:20px !important; }
             .footerButton {width: 120px !important;}
 			.small-text-resize { font-size:11px !important; line-height:14px !important; }
@@ -326,7 +333,7 @@ Spring Spruce Up special section.
 		max-width:0px;
 		opacity:0;
 		overflow:hidden;">
-        Spring is in the air! Receive your Spring Spruce Up, April&#8203;&nbsp;&#8203;27 in SITENAME<!--Z-->!
+        Without you, the story ends. Support SITENAME<!--Z-->!
     </td>
 </tr>
 </table>
@@ -370,43 +377,25 @@ Spring Spruce Up special section.
 			        <td align="center" valign="top">
                         <!--SPACER--><tr><td height="40" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                         <tr>
-                            <td class="imgresize80 img" align="center" valign="top">
+                            <td class="imgresize60 img" align="center" valign="top">
                                 <a rel="noopener" href="https://SITEURL" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/5pk/tkj/b86/B_MID_rgb_NJ_Newark.png" width="300" style="margin:0; padding:0; border:none; display:block;" border="0" alt="SITENAME online logo" /></a>
                             </td>
                         </tr>
-                        <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        <!--SPACER--><tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
 			        </td>
                     </tr>
                 </table>
                 <!-- END LOGO -->
 
-                <!-- START DECK -->
-                <table class="mobile-320 inset" role="presentation" width="600" style="background-color:#e7e7e7;" bgcolor="#e7e7e7" cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                        <td align="center" valign="top">
-                            <table class="mobile-200" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                               <tr>
-                                   <td align="center" valign="top" style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 24px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"> 
-                                   <span> Receive your Spring Spruce Up, <nobr>April&#8203;&nbsp;&#8203;27</nobr> in <nobr>SITENAME<!--Z-->.</nobr></span>
-                                    </td>
-                               </tr>
-                               <!--SPACER--><tr><td height="25" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-                <!-- END DECK -->
-
                 <!-- START HERO -->
                 <table class="mobile-320 inset" role="presentation" width="600" style="background-color:#e7e7e7;" bgcolor="#e7e7e7" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                             <td align="center" valign="top">
-                            <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                            <table class="mobile-320" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <td align="center" class="imgresize80 img">
-                                        <img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/bb7/py8/jf3/SPRING_PROMO.jpg" width="100%" height="auto" style="margin:0; padding:0; border:none;" border="0" alt="cover"/>
+                                        <img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/r4e/ksr/0vn/JournalismIllo.png" width="100%" height="auto" style="margin:0; padding:0; border:none;" class="disappear" border="0" alt="cover"/>
                                     </td>
-                              <!--SPACER--><tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 </tr>
                             </table>
                             </td>
@@ -419,10 +408,11 @@ Spring Spruce Up special section.
                     <tr>
                        <td align="center" valign="top">
                        <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                            <!-- SPACER ABOVE HEADLINE -->
+                            <tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                            <tr>
                            <td align="center" valign="top">
-                               <h1 class="h1-text-resize" style="font-family: lust, serif; font-weight: 700; font-style: normal; display: inline-block; font-size: 50px; line-height: 50px; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; color: #1C1E22;">Spring&nbsp;</h1>
-                               <h1 class="h1-text-resize accentSite" style="font-family: lust, serif; font-weight: 700; font-style: normal; display: inline; font-size: 50px; line-height: 50px; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; color: #277077;">is<br> in the air!</h1>
+                               <h1 class="h1-text-resize" style="font-family: lust, serif; font-weight: 700; font-style: normal; display: inline-block; font-size: 40px; line-height: 45px; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; color: #1C1E22;"><z class="disappear2">Without</z> <z class="disappear">you,</z><br> the story ends.</h1>
                            </td>
                            </tr>
                            <!-- SPACER BELOW HEADLINE -->
@@ -437,28 +427,17 @@ Spring Spruce Up special section.
                 <table class="mobile-320 inset" role="presentation" width="600" style="background-color:#e7e7e7;" bgcolor="#e7e7e7" cellpadding="0" cellspacing="0" border="0">               
                     <tr>
                         <td align="center" valign="top">
-                            <table class="mobile-320" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
+                            <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <td align="center" valign="top">
-								        <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #1C1E22; text-wrap: balance;"><strong>Spring is a great time to refresh your home and garden.</strong> Declutter and deep clean. Add a splash of color indoors. Or, learn about new flowers to brighten up your garden. For some great ideas to help get you started, just click through our subscriber exclusive Spring Spruce Up special section.</p>
+								        <p class="intro-text-resize" style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400; font-size: 16px; line-height: 31px; color: #1C1E22; text-wrap: balance;"><strong>Local journalism informs and empowers communities, but newsrooms nationwide are vanishing.</strong> We need more than just technology to survive—we need you. Your engagement strengthens the reporting that matters most to your community.</p>
                                     </td>
                                 </tr>
                                 <!-- SPACER BELOW INTRO --><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                             </table>
                         </td>
                     </tr>
-                    <tr>
-                        <td align="center" valign="top">
-                            <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
-                                <tbody>
-                                    <tr>
-                                        <td align="center"><a href="https://reader.sl.nj.com" target="_blank" class="button"  style="padding:9px 4px; min-width:86px; display:block; text-decoration:none; text-align:center; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; font-size:12px; color:#121212; background:#e7e7e7; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 2px solid #121212;">Explore!</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    <!--SPACER BELOW BUTTON--><tr><td height="70" style="font-size:10px; line-height:1;">&nbsp;</td></tr> 
+                    <!--SPACER BELOW BUTTON--><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr> 
                 </table>
                 <!-- END INTRO/BUTTON -->
                 
@@ -481,7 +460,7 @@ Spring Spruce Up special section.
                     <tr>
                         <td align="center" valign="top">
                             <h2 style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"> 
-                                <span>Free for subscribers.</span>
+                                <span>Subscribe & Support.</span>
                             </h2>
                         </td>
                     </tr>
@@ -492,13 +471,27 @@ Spring Spruce Up special section.
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <td align="center" valign="top">
-                                        <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;"><strong>All customers of SITENAME</strong> can access the online newspaper & many extras at no additional cost. Click below to activate your account.</p>
+                                        <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;"><strong>As a reader-funded newsroom,</strong> we rely on subscribers to support and sustain reliable and responsible local journalism. Consider subscribing to the online newspaper for updated local news,investigative stories, and special sections not available in print.</p>
                                     </td>
                                 </tr>
+                                <!-- SPACER --><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                             </table>
                         </td>
                     </tr>
-                    <!-- SPACER BELOW SUBSCRIBER CHATTER --><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                <!-- SUBSCRIBE BUTTON -->
+                    <tr>
+                        <td align="center" valign="top">
+                            <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center"><a href="subscribe.mlive.com" target="_blank" class="button"  style="padding:9px 4px; min-width:86px; display:block; text-decoration:none; text-align:center; font-family: Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.5px; font-size:12px; color:#121212; background:#e7e7e7; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 2px solid #121212;">Subscribe!</a></td>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- SPACER BELOW SUBSCRIBER CHATTER --><tr><td height="60" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                     </table> 
                 <!-- END SUBSCRIBER SECTION -->
 
@@ -521,8 +514,8 @@ Spring Spruce Up special section.
                     <!-- ONLY HEADLINE -->
                     <tr>
                         <td align="center" valign="top">
-                            <h2 class="mobile-200" style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"> 
-                                <span>Only in SITENAME<!--Z-->.</span>
+                            <h2 class="mobile-300" style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"> 
+                                <span>Already a subscriber?</span>
                             </h2>
                         </td>
                     </tr>
@@ -530,11 +523,12 @@ Spring Spruce Up special section.
                     <!-- ONLY CHATTER -->
                     <tr>
                         <td align="center" valign="top">
-                            <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                            <table class="mobile-300" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <td align="center" valign="top">
-                                        <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;">
-                                                <highlight><bulletHide>&nbsp;&#x25cf;&nbsp;</bulletHide>Later sports scores</highlight> 
+                                        <p class="left-align" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;">
+                                            <highlightIntro>Access The Ann Arbor News&nbsp;online today for these features and much more. </highlightIntro>
+                                                <highlight><bullet>&nbsp;&#x25cf;&nbsp;</bullet>Later sports scores</highlight> 
                                                 <highlight><bullet>&nbsp;&#x25cf;&nbsp;</bullet>Later news updates</highlight>
                                                 <highlight><bullet>&nbsp;&#x25cf;&nbsp;</bullet>Extra In&#x2011;depth pages of news, sports, opinion, books, health, food, money & culture.</highlight>   
                                                 <highlight> <bullet>&nbsp;&#x25cf;&nbsp;</bullet>Daily full-page primetime TV grid</highlight>  
@@ -567,36 +561,7 @@ Spring Spruce Up special section.
                     </td>
                 </tr>
                 <!--SPACER BELOW ADDITIONAL IMAGE--><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                <!-- ADDITIONAL HEADLINE -->
-                <tr>
-                    <td align="center" valign="top">
-                        <h2 class="mobile-200" style="display: inline-block; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: center; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; text-wrap: balance; color: #1C1E22;"> 
-                            <span>Your News. Your Way.</span>
-                        </h2>
-                    </td>
-                </tr>
-                <!--SPACER BELOW ADDITIONAL HEADLINE--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                <!-- ADDITIONAL CHATTER -->
-                <tr>
-                    <td align="center" valign="top">
-                        <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-                            <tr>
-                                <td align="center" valign="top">
-                                    <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: #1C1E22; text-wrap: balance;">
-                                        <highlight><bulletHide>&nbsp;&#x25cf;&nbsp;</bulletHide>Read it anywhere, anytime</highlight>   
-                                        <highlight> <bullet>&nbsp;&#x25cf;&nbsp;</bullet>Zoom in for easier reading</highlight>  
-                                        <highlight><bullet>&nbsp;&#x25cf;&nbsp;</bullet>Searchable content</highlight>   
-                                        <highlight> <bullet>&nbsp;&#x25cf;&nbsp;</bullet>Access to past editions</highlight>  
-                                        <highlight><bullet>&nbsp;&#x25cf;&nbsp;</bullet>Share your subscription with friends & family</highlight> 
-                                        <highlight> <bullet>&nbsp;&#x25cf;&nbsp;</bullet>Bookmark favorite articles</highlight>  
-                                    </p>
-                                </td>
-                            </tr>
-                            <!--SPACER BELOW ADDITIONAL HEADLINE--><tr><td height="30" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                        </table>
-                    </td>
-                </tr>
-                <!-- ADDITIONAL SEE IT NOW BUTTON -->
+                <!-- ACTIVATE BUTTON -->
                     <tr>
                         <td align="center" valign="top">
                             <table class="mobile-200" role="presentation" width="200" cellpadding="0" cellspacing="0" border="0">
