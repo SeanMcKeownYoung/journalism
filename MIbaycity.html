@@ -141,10 +141,10 @@
         bullet { display: inline !important; max-height:none !important;  }
         bullet { display: inline !important; max-height:none !important;  }
         bulletHide { width: 0px !important; display: none !important; }
-        .hoverFooterBttn:hover {-webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.20), 0px 0px 10px 16px rgba(0,0,0,0.10); box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.20), 0px 0px 10px 16px rgba(0,0,0,0.10); transition: box-shadow 0.3s ease-in-out; }
-        .hoverFooterBttn {-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0); box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0); transition: box-shadow 0.3s ease-in-out; }
-        .helpButton {filter: drop-shadow(0px 0px 0px transparent) !important; transition: filter  0.3s ease-in-out;}
-        :hover.helpButton {filter: drop-shadow(0px 0px 6px #000000a1) !important; transition: filter 0.3s ease-in-out;}
+        .helpButton {  transition: all 0.2s ease-in-out;  border-radius: 150px; box-shadow:  0px 0px 0px rgba(255, 255, 255, 0.24), 0px 0px 0px rgba(255, 255, 255, 0.54);}
+        :hover.helpButton {border-radius: 150px; box-shadow:  6px 6px 32px rgba(255, 255, 255, 0.24), -6px -6px 22px rgba(255, 255, 255, 0.74);}
+        .hoverFooterBttn {  transition: all 0.2s ease-in-out;  border-radius: 150px; box-shadow:  0px 0px 0px rgba(255, 255, 255, 0.24), 0px 0px 0px rgba(255, 255, 255, 0.54);}
+        :hover.hoverFooterBttn {border-radius: 150px; box-shadow:  6px 6px 32px rgba(255, 255, 255, 0.24), -6px -6px 22px rgba(255, 255, 255, 0.74);}
         accentSite .accentSite {color: #178be3 !important}
 		/* RESET STYLES */
 		img { border: 0; outline: none; text-decoration: none; }
@@ -337,16 +337,16 @@
 		<table class="mobile-320 body" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#cbcbcb;" bgcolor="#cbcbcb">
 			<tr>
 				<td align="center" valign="top">
-				<table class="mobile-320 inset" role="presentation" width="600" style="background-color:#d4d3d3;" bgcolor="#d4d3d3" cellpadding="0" cellspacing="0" border="0">
-				<!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-			        <td align="center" valign="top">
-				        <table class="mobile-240" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0">
-					        <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size:8px; line-height:18px; color: #1C1E22; text-decoration: none; text-align: center; text-transform: uppercase; letter-spacing: 0.6px;">Having&nbsp;trouble&nbsp;viewing&nbsp;this&nbsp;email?&nbsp;
-					        <a rel="noopener" href="{view_url}" target="_blank" style="color:#1C1E22; text-decoration:underline;">View&nbsp;in&nbsp;your&nbsp;browser</a></p>
-				        </table>
-			        </td>
-                <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
-                </table>
+				    <table class="mobile-320 inset" role="presentation" width="600" style="background-color:#d4d3d3;" bgcolor="#d4d3d3" cellpadding="0" cellspacing="0" border="0">
+                        <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                        <tr>
+			                <td align="center" valign="top">
+					            <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size:8px; line-height:18px; color: #1C1E22; text-decoration: none; text-align: center; text-transform: uppercase; letter-spacing: 0.6px;">Having&nbsp;trouble&nbsp;viewing&nbsp;this&nbsp;email?&nbsp;
+					            <a rel="noopener" href="{view_url}" target="_blank" style="color:#1C1E22; text-decoration:underline;">View&nbsp;in&nbsp;your&nbsp;browser</a></p>
+			                </td>
+                        </tr>
+                        <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                    </table>
                 </td>
             </tr>
         </table>
@@ -418,7 +418,7 @@
                             <tr><td height="50" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                            <tr>
                            <td align="center" valign="top">
-                            <h1 class="h1-text-resize" style="font-family: lust, serif; font-weight: 700; font-style: normal; display: inline-block; font-size: 40px; line-height: 45px; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; color: #1C1E22;"><z class="disappear2">Without</z> <z class="disappear">you,</z><br> the story ends.</h1>
+                            <h1 class="h1-text-resize" style="font-family: 'farnham headline', Georgia, serif; font-weight: 600; font-style: normal; display: inline-block; font-size: 40px; line-height: 45px; letter-spacing: -0.25px; -webkit-font-smoothing: antialiased; font-kerning: normal; color: #1C1E22;"><z class="disappear2">Without</z> <z class="disappear">you,</z><br> the story ends.</h1>
                            </td>
                            </tr>
                            <!-- SPACER BELOW HEADLINE -->
@@ -592,7 +592,7 @@
     <table class="mobile-320 body" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#178be3;" bgcolor="#178be3">
 		<tr>
 			<td align="center" valign="top">
-                <!-- START FOOTER MAIN 600-->
+                <!-- START FOOTER MAIN TOP 600-->
 				<table class="mobile-320 inset" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">
                     <tr>
 						<td align="center" valign="top">
@@ -612,19 +612,21 @@
                                 </td>
                                 </tr>
                             </table>
-                            <!-- END FOOTER RULE 400 ABOVE RIBBON--> 
+                        <!-- END FOOTER RULE 400 ABOVE RIBBON--> 
                         <!-- START FOOTER CONTACTS 400 -->
                         <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">
-                                <tr>
-                                        <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block !important;" class="small-text-resize">
-                                            <a rel="noopener" href="https://www.mlive.com/mlive_contacts/page/contact_home.html" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; Contacts &nbsp;</a><div style="display: inline; color: #178be3;"class="mobileOff hoverRule" id="none"> &nbsp;|&nbsp; </div>
-                                            <a rel="noopener" href="https://www.mlive.com/privacy-policy/" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; Privacy &nbsp;</a><div style="display: inline; color: #178be3;"class="mobileOff hoverRule" id="none"> &nbsp;|&nbsp; </div>
-                                            <a rel="noopener" href="https://myaccount.mlive.com" target="_blank" class="hoverClicks " style="color:#242424; text-decoration: none;">&nbsp; Account &nbsp;</a> 
-                                        </td> 
-                                </tr>   
-                            </table>
-                            <!-- END FOOTER CONTACTS 400-->
-                            <!-- START FOOTER RULE 400 BELOW RIBBON-->
+                            <tr>
+                                <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block !important;" class="small-text-resize">
+                                    <a rel="noopener" href="https://www.mlive.com/mlive_contacts/page/contact_home.html" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; Contacts &nbsp;</a>
+                                    <div style="display: inline; color: #178be3;"class="mobileOff hoverRule" id="none"> &nbsp;|&nbsp; </div>
+                                    <a rel="noopener" href="https://www.mlive.com/privacy-policy/" target="_blank" class="hoverClicks "style="color:#242424; text-decoration: none;">&nbsp; Privacy &nbsp;</a>
+                                    <div style="display: inline; color: #178be3;"class="mobileOff hoverRule" id="none"> &nbsp;|&nbsp; </div>
+                                    <a rel="noopener" href="https://myaccount.mlive.com" target="_blank" class="hoverClicks " style="color:#242424; text-decoration: none;">&nbsp; Account &nbsp;</a> 
+                                </td> 
+                            </tr>   
+                        </table>
+                        <!-- END FOOTER CONTACTS 400-->
+                        <!-- START FOOTER RULE 400 BELOW RIBBON-->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">
                                 <tr>
                                 <td align="center" valign="top">
@@ -660,7 +662,7 @@
                                 </td>
                                 </tr>
                             </table>
-                        <!-- END FOOTER LOGO BOX 400 -->   
+                            <!-- END FOOTER LOGO BOX 400 -->   
 
                     <!-- START APP SECTION-->                           
                             <!-- START APP PROMPT-->
@@ -678,14 +680,14 @@
 	                    <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">
                             <tr>
                                 <td align="center" valign="top">
-                                    <table class="mobile-200" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
+                                    <table class="mobile-200" role="presentation" width="310" cellpadding="0" cellspacing="0" border="0">
                                         <tr>
-                                            <td class="stack center-align spacer" align="left" valign="top" width="140" height="auto">                       
-                                                    <a rel="noopener" href="https://apps.apple.com/us/app/the-bay-city-times/id792741756" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/uq9/g84/1wd/APP_Apple.png" width="140" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#777777; background:#3F3F3F; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #3F3F3F;" class="footerButton hoverFooterBttn center-align" alt="Apple App Store button"/></a>
+                                            <td class="stack center-align spacer" align="left" valign="top">                       
+                                                    <a rel="noopener" href="https://apps.apple.com/us/app/the-bay-city-times/id792741756" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/uq9/g84/1wd/APP_Apple.png" width="150" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#777777; background:#3F3F3F; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;" class="footerButton hoverFooterBttn center-align" alt="Apple App Store button"/></a>
                                             </td>
-                                            <td class="stack" width="20px" align="center" valign="top" style="font-size: 0px; line-height: 0px;">&nbsp;</td>
-                                            <td class="stack center-align spacer" align="right" valign="top" width="140" height="auto">
-                                                    <a rel="noopener" href="https://play.google.com/store/apps/details?id=com.advancelocal.baycity" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/qp3/u0b/gvp/APP_Google.png" width="140" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#777777; background:#3F3F3F; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #3F3F3F;" class="footerButton hoverFooterBttn center-align" alt="Google Play button"/></a>
+                                            <td class="stack" width="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+                                            <td class="stack center-align spacer" align="right" valign="top">
+                                                    <a rel="noopener" href="https://play.google.com/store/apps/details?id=com.advancelocal.baycity" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/qp3/u0b/gvp/APP_Google.png" width="150" style="display:block; text-decoration:none; text-align:center; font-size:12px; color:#777777; background:#3F3F3F; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;" class="footerButton hoverFooterBttn center-align" alt="Google Play button"/></a>
                                             </td>
                                         </tr>
                                     </table>
@@ -728,26 +730,29 @@
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">
                                 <tr>
                                 <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
-                                    <p style="font-weight: 900; text-transform: uppercase;display: inline;">Questions? </p> 
-                                    <p style="text-transform: uppercase; display: inline;"> Call or email</p> 
-                                    <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    <p style="text-transform: uppercase; display: inline;"><strong>Questions?</strong> Call or email</p> 
                                 </td>
                                 </tr>
+                                <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                             </table>
                         <!-- END FOOTER QUESTIONS 400-->
                         <!-- START HELP BUTTONS  -->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">  
                                 <tr>     
                                 <td align="center" valign="top">                             
-                                    <table class="" role="presentation" width="170" cellpadding="0" cellspacing="0" border="0">
+                                    <table class="" role="presentation" width="128" cellpadding="0" cellspacing="0" border="0">
                                         <tr>
-                                        <td align="center" valign="top" width="75px" height="75px">
-                                            <a rel="noopener" href="mailto:customercare@mlive.com?subject=Please%20help%20me with%20The Bay City Times" target="_top"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/kgv/bjt/7hn/HELP_email_1.png" width="75px" height="75px" style="display:inline; text-decoration:none; text-align:center; font-size:12px; color:#242424; background:transparent; mso-line-height-rule:exactly; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;  " class="helpButton imgresize70 img" alt="Email customercare@mlive.com"/></a>
+                                        <td align="center" valign="top">
+                                            <a rel="noopener" href="mailto:customercare@mlive.com?subject=Please%20help%20me with%20The Bay City Times" target="_top"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/cue/vn5/f8d/HELP_email_2.png" width="60px" height="60px"  style="display:inline;" class="helpButton" alt="Email customercare@mlive.com"/></a>
                                         </td>
-                                        <td align="center" valign="top" width="75px" height="75px">
-                                            <a rel="noopener" href="tel:9896711201" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/swh/6in/jwc/HELP_phone_1.png" width="75px" height="75px" style="display:inline; text-decoration:none; text-align:center; font-size:12px; color:#242424; background:transparent; mso-line-height-rule:exactly; -moz-border-radius: 50px; -webkit-border-radius: 50px;  border-radius: 50px; " class="helpButton imgresize70 img" alt="Call 9896711201"/></a>
+                                        <td align="center" valign="top">
+                                <!--SPACER--><td width="8" style="font-size:10px; line-height:1;">&nbsp;</td>
+                                        </td>
+                                        <td align="center" valign="top">
+                                            <a rel="noopener" href="tel:9896711201" target="_blank"><img src="https://media.sailthru.com/composer/images/bazh/wxt6ga5j/p49/b69/d3l/HELP_phone_2.png" width="60px" height="60px"  style="display:inline;" class="helpButton" alt="Call 9896711201"/></a>
                                         </td>
                                         </tr>
+                                        <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                     </table>
                                 </td>
                                 </tr>
@@ -755,11 +760,10 @@
                             <!-- END HELP BUTTONS  -->
                             <!-- START FOOTER QUESTIONS EXPLAINER 400-->
                             <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#46a6ff;" bgcolor="#46a6ff">
-                                <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 <tr>
-                                <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:18px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">
-                                    <p>Click to call <b>989-671-1201</b> or</p> 
-                                    <p>email <b>customercare@mlive.com</b>.</p> 
+                                <td width="100%" align="center" >
+                                    <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:12px; line-height:18px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">Click to call <b>989-671-1201</b><br> or 
+                                    email <b>customercare@mlive.com</b>.</p> 
                                 </td>
                                 </tr>
                             </table>
@@ -769,9 +773,9 @@
                                 <tr>
                                 <td width="100%" align="center" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#242424; font-size:10px; line-height:16px; font-weight: 400; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-style: italic;">
                                     <p>*not supported on all devices</p> 
-                                    <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                                 </td>
                                 </tr>
+                                <!--SPACER--><tr><td height="10" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
                             </table>
                         <!-- END FOOTER QUESTIONS EXPLAINER 400-->
                             <!-- START FOOTER COPYRIGHT 400-->
@@ -786,6 +790,7 @@
                             </table>
                         <!-- END FOOTER COPYRIGHT 400-->
                         </td>
+                    </tr>
                 </table>
                 <!-- END FOOTER MAIN 600-->
             </td>
